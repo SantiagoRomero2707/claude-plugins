@@ -1,0 +1,20 @@
+{
+  "name": "hackerrank-java",
+  "version": "1.1.0",
+  "description": "Assistant for HackerRank technical tests with Java REST API. Applies SOLID, KISS, DRY, Clean Architecture, YAGNI, Law of Demeter and Fail Fast. Detects STUPID anti-patterns, Anemic Domain Model, God Class, Primitive Obsession and Magic Numbers.",
+  "author": {
+    "name": "Santiago",
+    "email": "santyago.2000@hotmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["java", "hackerrank", "clean-architecture", "solid", "rest-api", "spring-boot"],
+  "skills": "./skills/",
+  "userConfig": {
+    "problems_folder": {
+      "type": "string",
+      "title": "Problems folder",
+      "description": "Path to the folder with HackerRank problem screenshots",
+      "default": "./problems/"
+    }
+  }
+}
